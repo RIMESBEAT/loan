@@ -2,7 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+  font-family:Poppins;
+}
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,14 +34,63 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-repeat: no-repeat; */
+   
 }
+
+.padding__x {
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 1060px) {
+  .padding {
+    padding: 4rem;
+  }
+  .padding__x {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .padding {
+    padding: 4rem 2rem;
+  }
+  .padding__x {
+    padding: 0 1rem;
+  }
+  .scale-up-center:hover{
+    transform: scale(1);
+  }
+}
+
+
+.gradient-bg{
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C6000', endColorstr='#1DC0AB', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%);
+}
+

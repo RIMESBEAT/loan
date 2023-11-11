@@ -1,0 +1,131 @@
+import Image from 'next/image'
+import Hero from "../../public/mockup.png"
+import PlayButton from "../../public/playstore.png"
+import Security from "../../public/security.png"
+import Digital from "../../public/digital.png"
+import Disburst from "../../public/Disburst.png"
+import { ArrowRightCircleIcon } from "@heroicons/react/24/solid"
+
+
+export default function Home() {
+  return (
+    <main className=" h-full   ">
+      <section className="h-70 w-full gradient-bg ">
+<div className="block md:flex items-center padding__x">
+
+  <div className=" flex-1 pt-10 md:mr-5 ">
+        <h1 className=' my-3 font-extrabold text-6xl text-white uppercase italic '>Fasthelp</h1>
+        <p className='font-bold text-gray-100 my-2'>Easily Apply for Online Loan</p>
+        <p className='font-bold text-gray-200 my-2'>Loan up to ₦ 50,000! Just need you to provide a valid BVN and Android phone</p>
+
+        <Image src={PlayButton} alt='Playstore Button' className=' w-32 my-2' />
+      </div>
+      <div className=" flex-1 pt-10">
+<Image src={Hero} alt='Hero' className='h-full ' />
+      </div>
+</div>
+        
+      </section>
+      
+
+      <section className="padding__x  ">
+
+        <h2 className=' pt-20 pb-10 font-extrabold text-4xl text-center text-[#1C6000] '>Why Choose Us ?</h2>
+
+        <div className="block md:flex items-center my-2">
+<Image src={Security} alt='Image Describing Security' className='w-72 mx-auto'/>
+
+<div className="">
+
+  <h2 className=' font-extrabold text-2xl text-black my-4'>Security</h2>
+
+<p className=''>One of the key advantages of FASTHELP's platform is its fully secured nature. The system
+incorporates robust security measures to ensure the protection of user data and financial
+information. By adhering to industry best practices and employing advanced encryption
+methods, FASTHELP ensures that customer information remains safe and confidential.</p>
+</div>
+
+        
+        </div>
+<hr className=' shadow-lg shadow-black my-8' />
+
+
+        <div className=" flex flex-col-reverse md:flex-row  items-center my-2">
+
+<div className="">
+
+<h2 className=' font-extrabold text-2xl text-black my-4'>We are 100% Digital</h2>
+   <p>
+The platform's 100% digital nature offers numerous benefits to borrowers. It eliminates the
+need for traditional paperwork and physical visits to brick-and-mortar institutions. Instead,
+users can conveniently apply for loans online from the comfort of their own homes. The
+streamlined application process saves time and effort, making it easier for individuals to
+access the financial support they need.</p>
+
+</div>
+        
+       
+
+<Image src={Digital} alt='100% Digital' className='w-72 mx-auto'/>
+        </div>
+        <hr className=' shadow-lg shadow-black my-8' />
+
+
+        <div className="block md:flex items-center my-2">
+        <Image src={Disburst} alt='Fast Disburstment' className='w-72 mx-auto'/>
+
+          <div className="">
+          <h2 className=' font-extrabold text-2xl text-black my-4'> Fastest Disbursal</h2>
+<p>
+  A standout feature of FASTHELP's digital lending platform is its commitment to providing the
+fastest disbursals process. Once a loan application is approved, funds are swiftly transferred
+to the borrower's designated account. This allows individuals to receive financial support
+promptly, enabling them to address their urgent needs without delay.
+  </p>         
+
+
+          </div>
+         
+        </div>
+         <hr className=' shadow-lg shadow-black my-8' />
+      </section>
+
+      <section className="padding__x  mb-10" >
+
+        <h2 className='pt-20 pb-10 font-extrabold text-4xl text-center text-[#1C6000]'>How To Apply?</h2>
+<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+<p>  Select Type of Loan and Apply </p>
+
+</div>
+<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4 ">
+  <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+
+  <p>  Complete KYC registration with BVN </p>
+</div>
+<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+
+  <p>Pledge securities as collateral for secured loans</p>
+</div>
+<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+
+  <p>  Verify your bank account</p>
+</div>
+<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+
+  <p>Read & Sign loan agreement online with OTP authentication</p>
+</div>
+
+       
+
+       
+        
+        
+       
+      </section>
+    </main>
+  )
+}
