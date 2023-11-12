@@ -3,7 +3,7 @@ import Hero from "../../public/mockup.png"
 import PlayButton from "../../public/playstore.png"
 import Security from "../../public/security.png"
 import Digital from "../../public/digital.png"
-import Disburst from "../../public/Disburst.png"
+import Disburst from "../../public/disburst.png"
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid"
 
 
