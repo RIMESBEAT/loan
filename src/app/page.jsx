@@ -39,7 +39,7 @@ export default function Home() {
 
   <h2 className=' font-extrabold text-2xl text-black my-4'>Security</h2>
 
-<p className=''>One of the key advantages of FASTHELP's platform is its fully secured nature. The system
+<p className=''>One of the key advantages of FASTHELP&#39;s platform is its fully secured nature. The system
 incorporates robust security measures to ensure the protection of user data and financial
 information. By adhering to industry best practices and employing advanced encryption
 methods, FASTHELP ensures that customer information remains safe and confidential.</p>
@@ -56,7 +56,7 @@ methods, FASTHELP ensures that customer information remains safe and confidentia
 
 <h2 className=' font-extrabold text-2xl text-black my-4 '>We are 100% Digital</h2>
    <p>
-The platform's 100% digital nature offers numerous benefits to borrowers. It eliminates the
+The platform&#39;s 100% digital nature offers numerous benefits to borrowers. It eliminates the
 need for traditional paperwork and physical visits to brick-and-mortar institutions. Instead,
 users can conveniently apply for loans online from the comfort of their own homes. The
 streamlined application process saves time and effort, making it easier for individuals to
@@ -77,7 +77,7 @@ access the financial support they need.</p>
           <div className="">
           <h2 className=' font-extrabold text-2xl text-black my-4'> Fastest Disbursal</h2>
 <p>
-  A standout feature of FASTHELP's digital lending platform is its commitment to providing the
+  A standout feature of FASTHELP&#39;s digital lending platform is its commitment to providing the
 fastest disbursals process. Once a loan application is approved, funds are swiftly transferred
 to the borrower's designated account. This allows individuals to receive financial support
 promptly, enabling them to address their urgent needs without delay.
