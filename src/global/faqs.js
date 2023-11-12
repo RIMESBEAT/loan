@@ -55,22 +55,22 @@ export const faqGenData = [
         ans: "After downloading the app, sign in or sign up to identify yourself and this will take you to our brief registration process. Complete an application with valid information, we will then display your available credit limit in the app and you can view your expected loan product. Submit your application and we will typically notify you of the loan decision within minutes."
     },
     {
-        id: 4,
+        id: 5,
         quest: " How long does it take to process a FASTHELP loan?",
         ans: "The entire process can be completed in no time! Once you complete our short application, your information is reviewed, and a loan decision is typically provided within minutes."
     },
     {
-        id: 5,
+        id: 6,
         quest: " I don't know my BVN. What do I do?",
         ans: "Just dial *565*0#. Please note: This will only work if you are making the request from the same phone number currently linked to your bank account."
     },
     {
-        id: 6,
+        id: 7,
         quest: " Why is my bank account required?",
         ans: "It's important for us to send your funds to your preferred account, as quickly as possible. We request bank account details as that is where we will disburse funds to, if approved. Please note that this must be a personal bank account in your name."
     },
     {
-        id: 7,
+        id: 8,
         quest: " Can I access FASTHELP from any location?",
         ans: "FASTHELP is currently available throughout Nigeria."
     },

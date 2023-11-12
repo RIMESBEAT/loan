@@ -93,30 +93,69 @@ promptly, enabling them to address their urgent needs without delay.
       <section className="padding__x  mb-10" >
 
         <h2 className='pt-20 pb-10 font-extrabold text-4xl text-center text-[#1C6000]'>How To Apply?</h2>
-<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+<div className="flex items-center  md:space-x-2 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <div className="">
+
   <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+  </div>
+
+  <div className="">
+
+
 <p>  Select Type of Loan and Apply </p>
+  </div>
 
 </div>
-<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4 ">
+<div className="flex items-center  md:space-x-2 bg-[#6ca15765] rounded-md w-fit px-2 my-4 ">
+
+<div className="">
+
+
   <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+</div>
+
+<div className="">
 
   <p>  Complete KYC registration with BVN </p>
 </div>
-<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+</div>
+<div className="flex items-center  md:space-x-2 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  <div className="">
+
   <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+  </div>
+
+<div className="">
+
 
   <p>Pledge securities as collateral for secured loans</p>
 </div>
-<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+</div>
+<div className="flex items-center  md:space-x-2 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+
+
+  <div className="">
+
   <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+  </div>
+
+<div className="">
 
   <p>  Verify your bank account</p>
 </div>
-<div className="flex items-center space-x-4 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+</div>
+<div className="flex items-center  md:space-x-2 bg-[#6ca15765] rounded-md w-fit px-2 my-4">
+  
+  <div className="">
+
+
   <ArrowRightCircleIcon className='w-10 text-[#1C6000]' />
+  </div>
+
+<div className="">
 
   <p>Read & Sign loan agreement online with OTP authentication</p>
+</div>
 </div>
       </section>
     </main>
