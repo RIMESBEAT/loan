@@ -18,7 +18,7 @@ export default function Home() {
         <p className='font-bold text-gray-100 my-2'>Easily Apply for Online Loan</p>
         <p className='font-bold text-gray-200 my-2'>Loan up to ₦ 50,000! Just need you to provide a valid BVN and Android phone</p>
 
-        <Image src={PlayButton} alt='Playstore Button' className=' w-32 my-2' />
+        <Image src={PlayButton} alt='Playstore Button' priority className=' w-32 my-2' />
       </div>
       <div className=" flex-1 pt-10">
 <Image src={Hero} alt='Hero' className='h-full ' />
@@ -32,8 +32,8 @@ export default function Home() {
 
         <h2 className=' pt-20 pb-10 font-extrabold text-4xl text-center text-[#1C6000] '>Why Choose Us ?</h2>
 
-        <div className="block md:flex items-center my-2">
-<Image src={Security} alt='Image Describing Security' className='w-72 mx-auto'/>
+        <div className="block md:flex items-center my-2 md:space-x-8">
+<Image src={Security} alt='Image Describing Security' className='w-72 mx-auto rounded-md  mix-blend-multiply'/>
 
 <div className="">
 
@@ -50,11 +50,11 @@ methods, FASTHELP ensures that customer information remains safe and confidentia
 <hr className=' shadow-lg shadow-black my-8' />
 
 
-        <div className=" flex flex-col-reverse md:flex-row  items-center my-2">
+        <div className=" flex flex-col-reverse md:flex-row md:space-x-8 items-center my-2 ">
 
 <div className="">
 
-<h2 className=' font-extrabold text-2xl text-black my-4'>We are 100% Digital</h2>
+<h2 className=' font-extrabold text-2xl text-black my-4 '>We are 100% Digital</h2>
    <p>
 The platform's 100% digital nature offers numerous benefits to borrowers. It eliminates the
 need for traditional paperwork and physical visits to brick-and-mortar institutions. Instead,
@@ -66,13 +66,13 @@ access the financial support they need.</p>
         
        
 
-<Image src={Digital} alt='100% Digital' className='w-72 mx-auto'/>
+<Image src={Digital} alt='100% Digital' className='w-72 mx-auto rounded-md mix-blend-multiply'/>
         </div>
         <hr className=' shadow-lg shadow-black my-8' />
 
 
-        <div className="block md:flex items-center my-2">
-        <Image src={Disburst} alt='Fast Disburstment' className='w-72 mx-auto'/>
+        <div className="block md:flex items-center my-2 md:space-x-8">
+        <Image src={Disburst} alt='Fast Disburstment' className='w-72 mx-auto rounded-md mix-blend-multiply'/>
 
           <div className="">
           <h2 className=' font-extrabold text-2xl text-black my-4'> Fastest Disbursal</h2>
@@ -118,13 +118,6 @@ promptly, enabling them to address their urgent needs without delay.
 
   <p>Read & Sign loan agreement online with OTP authentication</p>
 </div>
-
-       
-
-       
-        
-        
-       
       </section>
     </main>
   )

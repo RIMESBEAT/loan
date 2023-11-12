@@ -45,7 +45,7 @@ body {
     )
     rgb(var(--background-start-rgb));
     background-repeat: no-repeat; */
-   
+   background: #dddddd5d;
 }
 
 .padding__x {
@@ -94,3 +94,80 @@ body {
   background: linear-gradient(167deg, rgba(29, 192, 171, 1) 0%, rgba(28, 96, 0, 1) 100%);
 }
 
+.gradient-bg-dark{
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(164deg, rgba(19, 66, 9, 1) 0%, rgba(2, 1, 36, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(164deg, rgba(19, 66, 9, 1) 0%, rgba(2, 1, 36, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(164deg, rgba(19, 66, 9, 1) 0%, rgba(2, 1, 36, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020124', endColorstr='#134209', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(164deg, rgba(19, 66, 9, 1) 0%, rgba(2, 1, 36, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(164deg, rgba(19, 66, 9, 1) 0%, rgba(2, 1, 36, 1) 100%);
+}
+    
+ 
+
+
+
+
+.flip-vertical-left {
+	-webkit-animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse forwards;
+	        animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse forwards;
+}
+
+@-webkit-keyframes flip-vertical-left {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+@keyframes flip-vertical-left {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+
+
+.flip-vertical-right {
+	-webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse forwards;
+	        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse forwards;
+}
+
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
