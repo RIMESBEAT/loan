@@ -79,7 +79,7 @@ access the financial support they need.</p>
 <p>
   A standout feature of FASTHELP&#39;s digital lending platform is its commitment to providing the
 fastest disbursals process. Once a loan application is approved, funds are swiftly transferred
-to the borrower's designated account. This allows individuals to receive financial support
+to the borrower&#39;s designated account. This allows individuals to receive financial support
 promptly, enabling them to address their urgent needs without delay.
   </p>         
 
