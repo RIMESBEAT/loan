@@ -10,12 +10,12 @@ const navlinks = [
         url: "/"
 
     },
-    {
-        id: 1,
-        title: "Repayment",
-        url: "/repayment"
+    // {
+    //     id: 1,
+    //     title: "Repayment",
+    //     url: "/repayment"
 
-    },
+    // },
     {
         id: 1,
         title: "FAQs",
