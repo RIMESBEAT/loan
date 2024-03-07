@@ -25,7 +25,7 @@ export default async function Home() {
             <p className='font-bold text-gray-100 my-2'>
               Easily Apply for Online Loan
             </p>
-            <p className='font-bold text-gray-200 my-2'>
+            <p className='font-bold text-gray-200 my-4'>
               Loan up to ₦ 50,000! Just need you to provide a valid BVN and
               Android phone
             </p>
