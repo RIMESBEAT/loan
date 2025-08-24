@@ -1,22 +1,29 @@
-import Image from 'next/image';
-import Hero from '../../public/mockup.png';
-import PlayButton from '../../public/playstore.png';
-import Security from '../../public/security.png';
-import Digital from '../../public/digital.png';
-import Disburst from '../../public/disburst.png';
-import { ArrowRightCircleIcon } from '@heroicons/react/24/solid';
-import { client } from '../../sanity/lib/client';
-import { groq } from 'next-sanity';
+"use client";
+import Image from "next/image";
+// import Hero from "../../public/mockup.png";
+import PlayButton from "../../public/playstore.png";
+import Security from "../../public/security.png";
+import Digital from "../../public/digital.png";
+import Disburst from "../../public/disburst.png";
+import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
+import { client } from "../../sanity/lib/client";
+import { groq } from "next-sanity";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
+import LoanOptions from "@/components/LoanOptions";
+import Testimonials from "@/components/Testimonials";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
-export default async function Home() {
-  const apkFile = await client.fetch(
-    groq`*[_type == "download"] {
-  "apk_file": apk_file.asset->url,
-      } `
-  );
+export default function Home() {
+  // const apkFile = await client.fetch(
+  //   groq`*[_type == "download"] {
+  // "apk_file": apk_file.asset->url,
+  //     } `
+  // );
   return (
-    <main className=' h-full   '>
-      <section className='h-70 w-full gradient-bg '>
+    <main className=" h-full   ">
+      {/* <section className='h-70 w-full gradient-bg '>
         <div className='block md:flex items-center padding__x'>
           <div className=' flex-1 pt-10 md:mr-5 '>
             <h1 className=' my-3 font-extrabold text-6xl text-white uppercase italic '>
@@ -175,7 +182,14 @@ export default async function Home() {
             <p>Read & Sign loan agreement online with OTP authentication</p>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <Header />
+      <Hero />
+      <WhyChooseUs />
+      <HowItWorks />
+      <LoanOptions />
+      {/* <Testimonials /> */}
     </main>
   );
 }
