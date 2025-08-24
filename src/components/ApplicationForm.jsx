@@ -37,7 +37,7 @@ export default function ApplicationForm() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Apply Now -{" "}
               <span className="bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                It's Free!
+                It&apos;s Free!
               </span>
             </h2>
             <p className="text-xl text-gray-300 mb-8">
