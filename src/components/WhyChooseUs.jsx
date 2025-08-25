@@ -94,7 +94,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 ">
           {stats.map((stat, index) => (
             <div key={index} className="text-center group">
               <div className="glass-morphism p-6 rounded-2xl hover-glow transform hover:scale-105 transition-all duration-300">
