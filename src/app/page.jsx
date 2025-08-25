@@ -184,11 +184,12 @@ export default function Home() {
       </section> */}
 
       <Header />
-      <Hero />
-      <WhyChooseUs />
-      <HowItWorks />
-      <LoanOptions />
-      {/* <Testimonials /> */}
+      <div className=" py-20">
+        <Hero />
+        <WhyChooseUs />
+        <HowItWorks />
+        <LoanOptions />
+      </div>
     </main>
   );
 }
